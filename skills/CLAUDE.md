@@ -193,7 +193,7 @@ Be patient - the cell will show [*] while running!
 **Note**: Files are overwritten by default. You'll see `[overwritten]` in the download summary when a file already existed. Set `overwrite=False` to prevent this.
 
 ### Debugging API Errors
-1. Check SDK version: `anthropic.__version__` should be `0.69.0`
+1. Check SDK version: `anthropic.__version__` should be `0.71.0` or later
 2. Verify beta headers are passed per-request
 3. Ensure code_execution tool is included
 4. Check response structure with `print(response)`
